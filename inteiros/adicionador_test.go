@@ -1,0 +1,14 @@
+package inteiros
+
+import "testing"
+
+func TestAdicionador(t *testing.T) {
+	soma := Adiciona(3, 1)
+	esperado := 4
+
+	if soma != esperado {
+		t.Errorf("Esperado '%d', resultado '%d'", esperado, soma)
+
+	}
+
+}
