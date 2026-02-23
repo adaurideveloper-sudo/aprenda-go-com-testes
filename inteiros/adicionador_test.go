@@ -1,6 +1,8 @@
 package inteiros
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestAdicionador(t *testing.T) {
 	soma := Adiciona(3, 1)
